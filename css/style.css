@@ -1,0 +1,803 @@
+/* General Styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-style: none;
+	font-family: Helvetica, Arial, sans-serif;
+}
+body {
+	background-color: #e9ebee;
+}
+#wrapper {
+	min-height: 1200px;
+	width: 851px;
+	margin-left: 165px;
+}
+a {
+	text-decoration: none;
+}
+input:focus { 
+  outline: none;
+}
+::placeholder {
+	color: #90949c;
+}
+.container {
+  position: relative;
+  display: inline-block;
+}
+#intro, #status, .pictures, #friends, #language, .post {
+	border: 1px solid #e9ebee;
+}
+/* / General Styles */
+
+/* Fixed Facebook Ruler */
+
+#top {
+	width: 100%;
+	height: 42px;
+	background-color: #4267b2;
+	border-bottom: 1px solid #29487d;
+}
+#top #top-header {
+	width: 47.3%;
+	height: 100%;
+	float: left;
+}
+#top #top-header img, #top #top-header input, #top #top-header button{
+	height: 24px;
+	margin-top: 9px;
+}
+#top #top-header img, #top #top-header input {
+	display: inline-block;
+	float: left;
+}
+#top #top-header img {
+	margin-left: 150px;
+	width: 24px;
+}
+#top #top-header input {
+	width: 393px;	
+	margin-left: 7px;
+	border-radius: 2px 0 0 2px;
+	padding-left: 5px;
+}
+#top #top-header button {
+ 	margin-left: -1px;
+ 	width: 46px;	
+ 	float: left;
+ 	background-color: #f5f6f7;
+ 	border: none;
+    border-radius: 0 2px 2px 0;
+    color: #4b4f56;
+    cursor: pointer;
+}
+#top nav {
+	height: 42px;
+	float: left;
+}
+#top nav ul li {
+	display: inline-block;
+	text-align: center;
+	line-height: 25px;
+	margin-top: 9px;
+	padding: 0 14px 0 12px;
+	border-right: 1px solid #365aa3;
+	height: 27px;
+}
+#top nav ul li:hover {
+	cursor: pointer;
+	background-color: #365aa3;
+}
+#top nav ul li a {
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+	float: left;	
+}	
+#top nav ul li a img {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%; 
+	float: left;
+	margin-right: 5px;
+
+}
+#top nav ul .no-b {
+	border-style: none;
+	
+}
+#top nav ul .no-p {
+	padding : 0 7px;
+}
+#top nav ul .diff-c a {
+	color: #213459;
+}
+
+/* / Fixed Facebook Ruler */
+ 
+/* Profile */
+
+#profile {
+ 	/*width: 851px;*/
+}
+#profile #top-profile {
+ 	background-image: url("../img/cover_photo.jpg");
+ 	background-size: cover;
+ 	height: 315px;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+}
+#profile #top-profile #camera a {
+ 	display: inline-block;
+ 	margin: 25px;
+ 	color: grey;
+}
+#profile #top-profile #top-profile-2 {
+	margin: 110px 15px;
+	margin-bottom: 0
+	float: left;
+}
+#profile #top-profile #top-profile-2 img {
+ 	display: inline-block;
+ 	width: 161px;
+ 	height: 161px;
+ 	border-radius: 50%;
+ 	border: 5px solid #fff;
+ 	float: left;
+}
+#profile #top-profile #top-profile-2 a {
+	float: left;
+	display: inline-block;
+	margin: 95px 20px;
+	margin-bottom: 0;
+}
+#profile #top-profile #top-profile-2 a h1 {
+	display: inline-block;
+	color: #fff;
+	font-weight: bold;
+	font-size: 24px;
+	text-shadow: 0 0 3px rgba(0, 0, 0, .8);
+	
+}
+#profile #top-profile #edit-activity {
+	float: right;
+	margin: 95px 20px;
+	margin-bottom: 0
+}
+#profile #top-profile #edit-activity .cover-buttons, #profile #top-profile #edit-activity .cover-buttons-2, #profile #top-profile #edit-activity .cover-buttons-3 {
+	display: inline-block;
+	height: 25px;
+	font-size: 12px;
+	background-color: #f5f6f7;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none;
+	color: #4b4f56;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	font-weight: bold;
+	float: left;
+	padding: 0 10px;
+}
+#profile #top-profile #edit-activity .cover-buttons-2 {
+	margin-left: 12px;
+} 
+#profile #top-profile #edit-activity .cover-buttons-2 span {
+	background-color: #fa3e3e;
+	color: #fff;
+	border-radius: 2px;
+    padding: 1px 3px;
+}
+#profile #main-nav {
+	width: 100%;
+	height: 43px;
+	background-color: #fff;
+}
+#profile #main-nav ul {
+	float: right;
+	margin-right: 35px;
+}
+#profile #main-nav ul li {
+	float: left;
+	display: inline-block;
+	text-align: center;
+	line-height: 43px;
+	border-left: 1px solid #e9eaed;
+	padding: 0 17px;
+}
+#profile #main-nav ul li:hover {
+	background-color: #f5f6f7;
+	cursor: pointer;
+}
+#profile #main-nav ul li a {
+	font-size: 12px;
+	color: #385898;	
+	font-size: 14px;
+    font-weight: 600;
+}
+#profile #main-nav ul li a span {
+	color: #89919c;
+    font-size: 11px;
+    font-weight: normal;
+    padding-left: 6px;
+}
+
+/* / Profile */
+
+/* Intro */
+main {
+	width: 100%;
+}
+main #page-l {
+	float: left;
+	margin-top: 12px;
+	width: 323px; 
+	display: inline-block;
+}
+
+main #intro {
+	background-color: #fff;
+	float: left;
+	/*height: 800px;*/
+}
+main #intro #title {
+	margin: 0 12px;
+	padding: 12px 0 4px;
+}
+main #intro #title #earth {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background-color: #4267b2;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 28px;
+	margin-right: 5px;
+}
+main #intro #title #header {
+	font-weight: normal;
+	font-size: 16px;
+    line-height: 20px;
+    color: #1c1e21
+}
+main #intro #bio {
+	font-size: 12px;
+	line-height: 16px;
+	color: #1d2129;
+	text-align: center;
+	padding: 8px;
+}
+main #intro #information {
+	margin: 0 12px;
+	border-top: 1px solid #ebedf0;
+}
+main #intro #information ul {
+	margin-top: 8px;
+	padding-top: 4px;
+}
+main #intro #information ul li {
+	font-size: 12px;
+	color: #213459;
+	line-height: 16px;
+	padding: 4px 16px 4px 0;
+}
+main #intro #information ul li i {
+	margin-right: 8px;
+	width: 16px;
+	height: 16px;
+	text-align: center;		
+}
+main #intro .photos , main .pictures .photos, main #friends .photos {
+	margin: 4px 6px;
+}
+main #intro .photos img, main .pictures .photos img, main #friends .photos img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+main #intro #intro-add-button {	
+	border: 1px solid #3578e5;
+	border-radius: 4px;
+	text-align: center;
+	padding: 4px;
+	width: 232px;
+	height: 19px;
+	line-height: 19px;
+	margin: 12px auto;
+}
+main #intro #intro-add-button a {
+	color: #3578e5;
+	font-size: 12px;
+	text-transform: capitalize;
+}
+main #intro #intro-add-button a i {
+	width: 16px;
+	height: 16px;
+	font-size: 12px;
+	margin-right: 2px;
+}
+
+/* /Intro */
+
+/* Photos */
+main #page-l .pictures , main #friends {
+	background-color: #fff;
+	margin-top: 10px;
+	display: inline-block;
+	width: 100%;
+}
+main #page-l .pictures #photos-title, main #friends #friends-title {
+	padding: 12px 0;
+	margin: 0 12px;
+}
+main #page-l .pictures #photos-title #pictures-title, main #friends #friends-title #friend-title {
+	color: #1d2129;
+	font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+}
+main #page-l .pictures #photos-title #add-photo, main #friends #friends-title #find-friend {
+	color: #385898;
+	line-height: 24px;
+    font-size: 12px;
+    float: right;
+}
+main #page-l .pictures #photos-title a:hover, main #friends #friends-title a:hover {
+	text-decoration: underline;
+}
+main #page-l .pictures #photos-title i {
+	width: 24px;
+    height: 24px;
+    background-color: #b1e57a;
+    border-radius: 50%;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    margin-right: 5px;
+}
+
+/* /Photos */
+	
+/* Freinds */
+
+main #friends #friends-title #friend-title span {
+	color: #90949c;
+	font-size: 14px;
+    line-height: 18px;
+}
+main #friends #friends-title i {
+	width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background-color: #e82f61;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+}
+main #friends .photos .name {
+    line-height: 16px;
+    padding: 5px;
+    position: absolute;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	width: 90px;
+}
+main #friends .photos a {
+	font-size: 12px;
+	text-align: left;
+    color: #fff;
+    font-weight: normal;
+}
+
+/* /Friends*/
+
+/* Language */
+
+main #language {
+	color: #90949c;
+	font-weight: normal;
+	font-size: 12px;
+	background-color: #fff;
+	margin-top: 10px;
+	margin-bottom: 8px;
+	width: 100%;
+}
+main #language .contain {
+	padding: 12px;
+	display: inline-block;
+}
+main #language .contain #lan {
+	float: left;
+	width: 75%;
+}
+main #language .contain #plus {
+	float: right;
+	width: 34px;
+	height: 26px;
+	background-color: #f5f6f7;
+	border: 1px solid #ccd0d5;
+}
+main #language .contain #lan a {
+	color: #385898;
+	text-align: center;
+}
+main #language .contain #lan a:hover {
+	text-decoration: underline;
+}
+main #language .contain #plus a {
+	display: inline-block;
+}
+main #language .contain #plus a:hover {
+	background-color: #f0f1f1;
+}
+main #language .contain #plus a i {
+	height: 12px;
+    width: 12px;
+    padding: 7px 12px;
+    color: #4b4f56;
+}
+
+/* /Language */
+
+/* Copyright */
+
+footer {
+	padding: 0 12px;
+	font-size: 12px;
+	font-weight: normal;
+}
+footer a {
+    color: #90949c;
+}
+footer p {
+	color: #616770;
+}
+/* /Copyright */
+
+/* Status */
+main #page-r {
+	display: inline-block;
+	float: right;
+	margin-left: 12px;
+	width: 516px;
+}
+main #status {
+	/*float: right;*/
+	background-color: #fff;
+	margin-bottom: 18px;
+	margin-top: 12px;
+	width: 516px;
+	display: inline-block;
+}
+main #status #option-01 {
+	padding: 8px 24px 8px 0;
+	border-bottom: 1px solid #dddfe2;
+	background-color: #f5f6f7;
+}
+main #status #option-01 li {
+	display: inline-block;
+}
+main #status #option-01 li a {
+	color: #365899;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	padding: 0 8px;
+	border-left: 1px solid #ccd0d5;
+}
+main #status #option-01 li i {
+	color: #4b4f56;
+	width: 16px;
+	height: 16px;
+	padding-right: 5px;
+}
+main #status #option-01 li .no-b {
+	border-style: none;
+}
+main #status #create-post {
+	display: inline-block;
+}
+main #status #create-post img , main .post .top-post img, main .post .comments img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin: 12px 0 0 12px;
+	float: left;
+}
+main #status #create-post input {
+	float: left;
+	padding: 23px 48px 30px 12px;
+	width: 404px;
+}
+main #status #options {
+	margin: 0 12px;
+}
+main #status #options #option-02 {
+	padding: 8px 0;
+	border-top: 1px solid #e9ebee;
+	width: 490px;
+	
+}
+main #status #options #option-02 li {
+	display: inline-block;
+	margin-right: 6px;
+    background: #f5f6f7;
+    border-radius: 18px;
+    height: 32px;
+}
+main #status #options #option-02 li a {
+	color: #4b4f56;
+	text-align: center;
+	font-size: 12px;
+    font-weight: 600;
+    padding: 0 15px;
+    line-height: 32px;
+}
+main #status #options #option-02 li a i {
+	color: #385898;
+	width: 20px;
+	height: 20px;
+}
+
+/* /Status */
+
+/* Timeline */
+
+main .layout {
+	display: inline-block;
+	/*float: right;*/
+	width: 100%;
+}
+main .layout h4 {
+	display: inline-block;
+	float: left;
+	margin: 8px 0 4px;
+    color: #606770;
+    font-weight: 600;
+    font-size: 12px;
+}
+main .layout #view {
+	display: inline-block;
+	float: right
+}
+main .layout #view ul li {
+	display: inline-block;
+	float: left;
+	border-radius: 2px;
+	background-color: #f5f6f7;
+	border: 1px solid #ccd0d5;
+	height: 26px;
+}
+main .layout #view ul .diff-m {
+	margin: 0 12px 4px 0;
+}
+main .layout #view ul li a {
+	font-size: 12px;
+    font-weight: bold;
+    color: #4b4f56;
+    padding: 0 10px;
+   	line-height: 26px;
+}
+main .layout #view ul li .diff-c {
+	color: #4267b2;
+}
+main .layout #view ul li a i {
+	width: 16px;
+	height: 16px;
+	margin-right: 7px;
+	line-height: 27px;
+}
+main .post {
+	background-color: #fff;
+	margin-top: 12px;
+}
+main .post .top-post {
+	padding-top: 12px;
+	height: 46px;
+}
+main .post .top-post img {
+	margin-top: 0;
+	margin-right: 8px;
+	padding-bottom: 3px;
+}
+main .post .top-post .edit {
+	float: right;
+	margin-right: 7px;
+	margin-top: -2px;
+	width: 20px;
+	height: 20px;
+	color: #616770;
+}
+main .post .top-post h5 {
+	padding-top: 3px;
+}
+main .post .top-post h5 a {
+	color: #385898;
+	font-weight: 600;
+	font-size: 14px;
+}
+main .post .top-post .time ,main .post .post-bottom .time {
+	color: #616770;
+	font-weight: normal;
+	font-size: 12px;
+	margin-top: 5px;
+}
+main .post .caption {
+	margin: 6px 0 0 12px;
+	color: #1c1e21;
+	font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 12px;
+}
+main .post .caption i {
+	height: 16px;
+    width: 16px;
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+}
+main .post .post-photo {
+	margin-bottom: 10px;
+}
+main .post .post-photo img {
+	width: 100%;
+	height: 516px;
+}
+main .post .post-bottom {
+	border-left: 2px solid #ccc;
+	padding-left: 10px;
+	margin: 0 12px;
+}
+main .post .post-bottom .page-name a {
+	color: #385898;
+	font-weight: 600;
+	font-size: 12px;
+}
+main .post .post-bottom .time {
+	margin-top: 2px;
+}
+main .post .post-bottom p {
+	margin: 1em 0;
+	color: #666;
+	font-size: 12px;
+}
+main .post .post-bottom p a {
+	color: #385898;
+}
+main .post .post-bottom p a:hover {
+	text-decoration: underline;
+}
+main .post .reactions .contain {
+	margin: 0 12px;
+	border-top: 1px solid #dadde1;
+}
+main .post .reactions .contain ul {
+	padding: 4px 0;
+}
+main .post .reactions .contain ul li {
+	display: inline-block;
+	width: 32.333333%;
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+}
+main .post .reactions .contain ul li a {
+	color: #606770;
+	font-weight: 600;
+	padding: 0 2px;
+	font-size: 13px;
+	width: 100%;
+	height: 100%;
+}
+main .post .reactions .contain ul li:hover, main .post .comments ul li i:hover {
+	background-color: #d7dadd;
+	cursor: pointer;
+}
+main .post .reactions .contain ul li a i {
+	width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+main .post .comments {
+	border-top: 1px solid #dadde1;
+	padding: 8px 11px;
+}
+main .post .comments img {
+	margin: 0;
+	width: 32px;
+	height: 32px;
+	display: block;
+}
+main .post .comments input {
+	color: #1c1e21;
+	font-size: 13px;
+	/*height: 34px;*/
+	background-color: #f2f3f5;
+	border: 1px solid #ccd0d5;
+	border-radius: 16px 0 0 16px;
+	border-right-style: none;
+	margin-left: 6px;
+	display: inline-block;
+	padding:0 12px;
+	width: 316px;
+	height: 32px;
+}
+main .post .comments ul {
+	float: right;
+	display: inline-block;
+	background-color: #f2f3f5;
+	border: 1px solid #ccd0d5;
+	border-radius: 0 16px 16px 0;
+	border-left-style: none;
+}
+main .post .comments ul li {
+	float: left;
+	display: inline-block;
+	width: 28px;
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+}
+main .post .caption-02 {
+	text-align: right;
+	margin-top: 6px;
+	padding-bottom: 12px;
+	padding-right: 12px;
+	font-size: 14px;
+    font-weight: normal;
+    color: #1c1e21;
+}
+main .post .caption-02 a {
+	color: #385898;
+	font-size: 14px;
+    font-weight: normal;
+}
+main .post .caption-02 a:hover, main .post .likes a:hover {
+	text-decoration: underline;
+}
+main .post .caption-02 a span {
+	color: #f00;
+    font-size: 16px;
+}
+main .post .likes {
+	margin: -2px 12px 0;
+	padding-bottom: 10px;
+}
+main .post .likes a {
+	color: #606770;
+	font-size: 13px;
+}
+main .post .likes #react {
+	display: inline-block;
+}
+main .post .likes #react #first, main .post .likes #react #second, main .post .likes #react #third {
+	color: #f00;
+	display: inline-block;
+}
+
+main .post .likes #react #first:hover, main .post .likes #react #second:hover, main .post .likes #react #third:hover {
+	cursor: pointer;
+}
+main .post .likes #react #second {
+	color: blue;
+}
+main .post .likes #react #third {
+	color: #ed9648;	
+}
+main .post .caption-02 #post-03 {
+	font-size: 24px;
+    font-weight: 300;
+}
+main .post .caption-02 #post-03 span {
+	color: red;
+	font-size: 35px;
+}
+
+/* /Timeline */
